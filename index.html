@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header><h1>Consultas</h1></header>
+
+    <table>
+        <tr>
+            <td colspan="6"><label for="datos">DATOS PERSONALES</label></td>
+        </tr>
+
+        <tr>
+            <td colspan="3"><input type="text" name="nombre" id="datos" placeholder="NOMBRE"></td>
+            <td colspan="3"><input type="text" name="apellidos" id="datos" placeholder="APELLIDOS"></td>
+        </tr>
+        <tr>
+            <td colspan="3"><input type="number" name="dni" id="datos" placeholder="DNI"></td>
+            <td colspan="3"><input type="number" name="telefono" id="datos" placeholder="TELEFONO"></td>
+        </tr>
+        <tr>
+            <td colspan="3"><input type="number" name="celular" id="datos" placeholder="CELULAR"></td>
+            <td colspan="3"><input type="text" name="email" id="datos" placeholder="E-MAIL"></td>
+        </tr>
+        <tr>
+            <td colspan="6"><input type="text" name="direccion" id="datos" placeholder="DIRECCION"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><select name="departamento" id="datos">
+                <option value="" disabled selected hidden>DEPARTAMENTO</option>
+                <option value="lima">LIMA</option>
+                <option value="arequipa">AREQUIPA</option>
+                <option value="cusco">CUSCO</option>
+            </select>
+            </td>
+
+            <td colspan="2"><select name="concesionario" id="datos">
+                <option value="" disabled selected hidden>CONCESIONARIO</option>
+                <option value="ate">ATE</option>
+                <option value="comas">COMAS</option>
+                <option value="surco">SURCO</option>
+            </select>
+            </td>
+            <td colspan="2"><select name="motivo" id="datos">
+                <option value="" disabled selected hidden>MOTIVO DE CONSULTA</option>
+                <option value="servicio">SERVICIO</option>
+                <option value="atencion">ATENCION</option>
+                <option value="repuestos">REPUESTOS</option>
+            </select>
+            </td>
+        </tr>
+        <TR>
+            <td></td>
+        </TR>
+
+        <tr>
+            <td colspan="6"><label for="vehiculo">DATOS DEL VEHICULO</label></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="text" name="placa" id="vehiculo" placeholder="PLACA"></td>
+            <td colspan="2"><input type="text" name="propietario" id="vehiculo" placeholder="PROPIETARIO"></td>
+            <td colspan="2"><select name="modelo" id="vehiculo">
+                <option value="" disabled selected hidden>MODELO</option>
+                <option value="4runner">4RUNNER</option>
+                <option value="avanza">AVANZA</option>
+                <option value="corolla">COROLLA</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6"><textarea name="cometarios" rows="8" cols="70">MENSAJE</textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="submit" value="BORRAR"></td>
+            <td><input type="submit" value="ENVIAR"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
